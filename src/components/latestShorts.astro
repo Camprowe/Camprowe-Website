@@ -1,0 +1,246 @@
+---
+import "../styles/global.css";
+---
+
+<section id="_team_marquee_overlay_v6_001" class="py-20 sm:py-24 bg-white dark:bg-neutral-950 overflow-hidden">
+  <style>
+    @keyframes marquee-left {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    #_team_marquee_overlay_v6_001 .marquee-track {
+      animation: marquee-left 40s linear infinite;
+    }
+    #_team_marquee_overlay_v6_001 .marquee-track:hover {
+      animation-play-state: paused;
+    }
+  </style>
+  <!-- Split Header -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-14">
+    <div class="grid lg:grid-cols-12 gap-8 items-end">
+      <div data-motion="hero" class="lg:col-span-7" style="opacity: 1;">
+        <span data-motion="badge" class="text-amber-600 text-sm font-semibold tracking-wide uppercase mb-4 block" style="opacity: 1; transform: translateY(0px); filter: blur(0px);">A little bit of Everything</span>
+        <h2 class="text-4xl sm:text-5xl font-bold text-slate-900 dark:text-white leading-tight">
+          Camprowe Shorts
+        </h2>
+      </div>
+      <div data-motion="text" class="lg:col-span-5" style="opacity: 1; transform: translateY(0px); filter: blur(0px);">
+        <p data-animate="text" class="text-lg text-slate-600 dark:text-neutral-400 leading-relaxed" style="opacity: 1;">
+          Everyone loves something they can watch quickly while scrolling, you can find all our <a class="underline" href="https://youtube.com/@TheCamprowe/Shorts">shorts on youtube</a> or a <a class="underline" href="https://camprowe.com/shorts">full list on camprowe.com</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Marquee Container -->
+  <div data-motion="marquee" class="relative w-full overflow-hidden" style="opacity: 1; filter: blur(0px);">
+    <!-- Gradient Overlays -->
+    <div class="absolute left-0 top-0 bottom-0 w-32 bg-linear-to-r from-white dark:from-neutral-950 to-transparent z-10 pointer-events-none"></div>
+    <div class="absolute right-0 top-0 bottom-0 w-32 bg-linear-to-l from-white dark:from-neutral-950 to-transparent z-10 pointer-events-none"></div>
+    
+    <div class="marquee-track flex gap-6">
+      <!-- First set of cards -->
+      <div class="flex gap-6 shrink-0">
+        <!-- Card -->
+        <a class="w-72 rounded-md overflow-hidden relative group cursor-pointer">
+          <div class="aspect-3/4">
+            <img data-motion="image" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&amp;auto=format&amp;fit=crop&amp;q=80" alt="Team member" style="opacity: 1; transform: scale(1); filter: blur(0px);">
+          </div>
+          <div data-motion="icon" class="group text-amber-600 absolute top-0 right-0 p-6">
+              <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor"><path d="M6.90588 4.53682C6.50592 4.2998 6 4.58808 6 5.05299V18.947C6 19.4119 6.50592 19.7002 6.90588 19.4632L18.629 12.5162C19.0211 12.2838 19.0211 11.7162 18.629 11.4838L6.90588 4.53682Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <div class="absolute inset-0 bg-linear-to-t from-slate-900/90 via-slate-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+            <span data-motion="badge" class="text-amber-600 text-xs font-medium tracking-wide uppercase mb-1 block" style="opacity: 1; transform: translateY(0px); filter: blur(0px);">Product / World</span>
+            <h6 class="text-white text-lg font-semibold">This is the title of the Short, how does it handle a new line</h6>            
+          </div>
+        </a>
+        
+        <!-- Card -->
+        <a class="w-72 rounded-md overflow-hidden relative group cursor-pointer">
+          <div class="aspect-3/4">
+            <img data-motion="image" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&amp;auto=format&amp;fit=crop&amp;q=80" alt="Team member" style="opacity: 1; transform: scale(1); filter: blur(0px);">
+          </div>
+          <div data-motion="icon" class="group text-amber-600 absolute top-0 right-0 p-6">
+              <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor"><path d="M6.90588 4.53682C6.50592 4.2998 6 4.58808 6 5.05299V18.947C6 19.4119 6.50592 19.7002 6.90588 19.4632L18.629 12.5162C19.0211 12.2838 19.0211 11.7162 18.629 11.4838L6.90588 4.53682Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <div class="absolute inset-0 bg-linear-to-t from-slate-900/90 via-slate-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+            <span data-motion="badge" class="text-amber-600 text-xs font-medium tracking-wide uppercase mb-1 block" style="opacity: 1; transform: translateY(0px); filter: blur(0px);">Product / World</span>
+            <h6 class="text-white text-lg font-semibold">This is the title of the Short, how does it handle a new line</h6>            
+          </div>
+        </a>
+        
+        <!-- Card -->
+        <a class="w-72 rounded-md overflow-hidden relative group cursor-pointer">
+          <div class="aspect-3/4">
+            <img data-motion="image" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&amp;auto=format&amp;fit=crop&amp;q=80" alt="Team member" style="opacity: 1; transform: scale(1); filter: blur(0px);">
+          </div>
+          <div data-motion="icon" class="group text-amber-600 absolute top-0 right-0 p-6">
+              <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor"><path d="M6.90588 4.53682C6.50592 4.2998 6 4.58808 6 5.05299V18.947C6 19.4119 6.50592 19.7002 6.90588 19.4632L18.629 12.5162C19.0211 12.2838 19.0211 11.7162 18.629 11.4838L6.90588 4.53682Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <div class="absolute inset-0 bg-linear-to-t from-slate-900/90 via-slate-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+            <span data-motion="badge" class="text-amber-600 text-xs font-medium tracking-wide uppercase mb-1 block" style="opacity: 1; transform: translateY(0px); filter: blur(0px);">Product / World</span>
+            <h6 class="text-white text-lg font-semibold">This is the title of the Short, how does it handle a new line</h6>            
+          </div>
+        </a>
+
+        <!-- Card -->
+        <a class="w-72 rounded-md overflow-hidden relative group cursor-pointer">
+          <div class="aspect-3/4">
+            <img data-motion="image" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&amp;auto=format&amp;fit=crop&amp;q=80" alt="Team member" style="opacity: 1; transform: scale(1); filter: blur(0px);">
+          </div>
+          <div data-motion="icon" class="group text-amber-600 absolute top-0 right-0 p-6">
+              <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor"><path d="M6.90588 4.53682C6.50592 4.2998 6 4.58808 6 5.05299V18.947C6 19.4119 6.50592 19.7002 6.90588 19.4632L18.629 12.5162C19.0211 12.2838 19.0211 11.7162 18.629 11.4838L6.90588 4.53682Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <div class="absolute inset-0 bg-linear-to-t from-slate-900/90 via-slate-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+            <span data-motion="badge" class="text-amber-600 text-xs font-medium tracking-wide uppercase mb-1 block" style="opacity: 1; transform: translateY(0px); filter: blur(0px);">Product / World</span>
+            <h6 class="text-white text-lg font-semibold">This is the title of the Short, how does it handle a new line</h6>            
+          </div>
+        </a>
+
+        <!-- Card -->
+        <a class="w-72 rounded-md overflow-hidden relative group cursor-pointer">
+          <div class="aspect-3/4">
+            <img data-motion="image" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&amp;auto=format&amp;fit=crop&amp;q=80" alt="Team member" style="opacity: 1; transform: scale(1); filter: blur(0px);">
+          </div>
+          <div data-motion="icon" class="group text-amber-600 absolute top-0 right-0 p-6">
+              <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor"><path d="M6.90588 4.53682C6.50592 4.2998 6 4.58808 6 5.05299V18.947C6 19.4119 6.50592 19.7002 6.90588 19.4632L18.629 12.5162C19.0211 12.2838 19.0211 11.7162 18.629 11.4838L6.90588 4.53682Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <div class="absolute inset-0 bg-linear-to-t from-slate-900/90 via-slate-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+            <span data-motion="badge" class="text-amber-600 text-xs font-medium tracking-wide uppercase mb-1 block" style="opacity: 1; transform: translateY(0px); filter: blur(0px);">Product / World</span>
+            <h6 class="text-white text-lg font-semibold">This is the title of the Short, how does it handle a new line</h6>            
+          </div>
+        </a>
+
+        <!-- Card -->
+        <a class="w-72 rounded-md overflow-hidden relative group cursor-pointer">
+          <div class="aspect-3/4">
+            <img data-motion="image" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&amp;auto=format&amp;fit=crop&amp;q=80" alt="Team member" style="opacity: 1; transform: scale(1); filter: blur(0px);">
+          </div>
+          <div data-motion="icon" class="group text-amber-600 absolute top-0 right-0 p-6">
+              <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor"><path d="M6.90588 4.53682C6.50592 4.2998 6 4.58808 6 5.05299V18.947C6 19.4119 6.50592 19.7002 6.90588 19.4632L18.629 12.5162C19.0211 12.2838 19.0211 11.7162 18.629 11.4838L6.90588 4.53682Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <div class="absolute inset-0 bg-linear-to-t from-slate-900/90 via-slate-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+            <span data-motion="badge" class="text-amber-600 text-xs font-medium tracking-wide uppercase mb-1 block" style="opacity: 1; transform: translateY(0px); filter: blur(0px);">Product / World</span>
+            <h6 class="text-white text-lg font-semibold">This is the title of the Short, how does it handle a new line</h6>            
+          </div>
+        </a>
+
+        <!-- Card -->
+        <a class="w-72 rounded-md overflow-hidden relative group cursor-pointer">
+          <div class="aspect-3/4">
+            <img data-motion="image" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&amp;auto=format&amp;fit=crop&amp;q=80" alt="Team member" style="opacity: 1; transform: scale(1); filter: blur(0px);">
+          </div>
+          <div data-motion="icon" class="group text-amber-600 absolute top-0 right-0 p-6">
+              <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor"><path d="M6.90588 4.53682C6.50592 4.2998 6 4.58808 6 5.05299V18.947C6 19.4119 6.50592 19.7002 6.90588 19.4632L18.629 12.5162C19.0211 12.2838 19.0211 11.7162 18.629 11.4838L6.90588 4.53682Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <div class="absolute inset-0 bg-linear-to-t from-slate-900/90 via-slate-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+            <span data-motion="badge" class="text-amber-600 text-xs font-medium tracking-wide uppercase mb-1 block" style="opacity: 1; transform: translateY(0px); filter: blur(0px);">Product / World</span>
+            <h6 class="text-white text-lg font-semibold">This is the title of the Short, how does it handle a new line</h6>            
+          </div>
+        </a>
+      </div>
+      
+      <!-- Duplicate set for seamless loop -->
+      <!-- First set of cards -->
+      <div class="flex gap-6 shrink-0">
+        <!-- Card -->
+        <a class="w-72 rounded-md overflow-hidden relative group cursor-pointer">
+          <div class="aspect-3/4">
+            <img data-motion="image" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&amp;auto=format&amp;fit=crop&amp;q=80" alt="Team member" style="opacity: 1; transform: scale(1); filter: blur(0px);">
+          </div>
+          <div data-motion="icon" class="group text-amber-600 absolute top-0 right-0 p-6">
+              <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor"><path d="M6.90588 4.53682C6.50592 4.2998 6 4.58808 6 5.05299V18.947C6 19.4119 6.50592 19.7002 6.90588 19.4632L18.629 12.5162C19.0211 12.2838 19.0211 11.7162 18.629 11.4838L6.90588 4.53682Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <div class="absolute inset-0 bg-linear-to-t from-slate-900/90 via-slate-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+            <span data-motion="badge" class="text-amber-600 text-xs font-medium tracking-wide uppercase mb-1 block" style="opacity: 1; transform: translateY(0px); filter: blur(0px);">Product / World</span>
+            <h6 class="text-white text-lg font-semibold">This is the title of the Short, how does it handle a new line</h6>            
+          </div>
+        </a>
+        
+        <!-- Card -->
+        <a class="w-72 rounded-md overflow-hidden relative group cursor-pointer">
+          <div class="aspect-3/4">
+            <img data-motion="image" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&amp;auto=format&amp;fit=crop&amp;q=80" alt="Team member" style="opacity: 1; transform: scale(1); filter: blur(0px);">
+          </div>
+          <div data-motion="icon" class="group text-amber-600 absolute top-0 right-0 p-6">
+              <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor"><path d="M6.90588 4.53682C6.50592 4.2998 6 4.58808 6 5.05299V18.947C6 19.4119 6.50592 19.7002 6.90588 19.4632L18.629 12.5162C19.0211 12.2838 19.0211 11.7162 18.629 11.4838L6.90588 4.53682Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <div class="absolute inset-0 bg-linear-to-t from-slate-900/90 via-slate-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+            <span data-motion="badge" class="text-amber-600 text-xs font-medium tracking-wide uppercase mb-1 block" style="opacity: 1; transform: translateY(0px); filter: blur(0px);">Product / World</span>
+            <h6 class="text-white text-lg font-semibold">This is the title of the Short, how does it handle a new line</h6>            
+          </div>
+        </a>
+        
+        <!-- Card -->
+        <a class="w-72 rounded-md overflow-hidden relative group cursor-pointer">
+          <div class="aspect-3/4">
+            <img data-motion="image" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&amp;auto=format&amp;fit=crop&amp;q=80" alt="Team member" style="opacity: 1; transform: scale(1); filter: blur(0px);">
+          </div>
+          <div data-motion="icon" class="group text-amber-600 absolute top-0 right-0 p-6">
+              <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor"><path d="M6.90588 4.53682C6.50592 4.2998 6 4.58808 6 5.05299V18.947C6 19.4119 6.50592 19.7002 6.90588 19.4632L18.629 12.5162C19.0211 12.2838 19.0211 11.7162 18.629 11.4838L6.90588 4.53682Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <div class="absolute inset-0 bg-linear-to-t from-slate-900/90 via-slate-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+            <span data-motion="badge" class="text-amber-600 text-xs font-medium tracking-wide uppercase mb-1 block" style="opacity: 1; transform: translateY(0px); filter: blur(0px);">Product / World</span>
+            <h6 class="text-white text-lg font-semibold">This is the title of the Short, how does it handle a new line</h6>            
+          </div>
+        </a>
+
+        <!-- Card -->
+        <a class="w-72 rounded-md overflow-hidden relative group cursor-pointer">
+          <div class="aspect-3/4">
+            <img data-motion="image" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&amp;auto=format&amp;fit=crop&amp;q=80" alt="Team member" style="opacity: 1; transform: scale(1); filter: blur(0px);">
+          </div>
+          <div data-motion="icon" class="group text-amber-600 absolute top-0 right-0 p-6">
+              <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor"><path d="M6.90588 4.53682C6.50592 4.2998 6 4.58808 6 5.05299V18.947C6 19.4119 6.50592 19.7002 6.90588 19.4632L18.629 12.5162C19.0211 12.2838 19.0211 11.7162 18.629 11.4838L6.90588 4.53682Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <div class="absolute inset-0 bg-linear-to-t from-slate-900/90 via-slate-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+            <span data-motion="badge" class="text-amber-600 text-xs font-medium tracking-wide uppercase mb-1 block" style="opacity: 1; transform: translateY(0px); filter: blur(0px);">Product / World</span>
+            <h6 class="text-white text-lg font-semibold">This is the title of the Short, how does it handle a new line</h6>            
+          </div>
+        </a>
+
+        <!-- Card -->
+        <a class="w-72 rounded-md overflow-hidden relative group cursor-pointer">
+          <div class="aspect-3/4">
+            <img data-motion="image" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&amp;auto=format&amp;fit=crop&amp;q=80" alt="Team member" style="opacity: 1; transform: scale(1); filter: blur(0px);">
+          </div>
+          <div data-motion="icon" class="group text-amber-600 absolute top-0 right-0 p-6">
+              <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor"><path d="M6.90588 4.53682C6.50592 4.2998 6 4.58808 6 5.05299V18.947C6 19.4119 6.50592 19.7002 6.90588 19.4632L18.629 12.5162C19.0211 12.2838 19.0211 11.7162 18.629 11.4838L6.90588 4.53682Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <div class="absolute inset-0 bg-linear-to-t from-slate-900/90 via-slate-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+            <span data-motion="badge" class="text-amber-600 text-xs font-medium tracking-wide uppercase mb-1 block" style="opacity: 1; transform: translateY(0px); filter: blur(0px);">Product / World</span>
+            <h6 class="text-white text-lg font-semibold">This is the title of the Short, how does it handle a new line</h6>            
+          </div>
+        </a>
+
+        <!-- Card -->
+        <a class="w-72 rounded-md overflow-hidden relative group cursor-pointer">
+          <div class="aspect-3/4">
+            <img data-motion="image" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&amp;auto=format&amp;fit=crop&amp;q=80" alt="Team member" style="opacity: 1; transform: scale(1); filter: blur(0px);">
+          </div>
+          <div data-motion="icon" class="group text-amber-600 absolute top-0 right-0 p-6">
+              <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor"><path d="M6.90588 4.53682C6.50592 4.2998 6 4.58808 6 5.05299V18.947C6 19.4119 6.50592 19.7002 6.90588 19.4632L18.629 12.5162C19.0211 12.2838 19.0211 11.7162 18.629 11.4838L6.90588 4.53682Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <div class="absolute inset-0 bg-linear-to-t from-slate-900/90 via-slate-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+            <span data-motion="badge" class="text-amber-600 text-xs font-medium tracking-wide uppercase mb-1 block" style="opacity: 1; transform: translateY(0px); filter: blur(0px);">Product / World</span>
+            <h6 class="text-white text-lg font-semibold">This is the title of the Short, how does it handle a new line</h6>            
+          </div>
+        </a>
+
+        <!-- Card -->
+        <a class="w-72 rounded-md overflow-hidden relative group cursor-pointer">
+          <div class="aspect-3/4">
+            <img data-motion="image" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&amp;auto=format&amp;fit=crop&amp;q=80" alt="Team member" style="opacity: 1; transform: scale(1); filter: blur(0px);">
+          </div>
+          <div data-motion="icon" class="group text-amber-600 absolute top-0 right-0 p-6">
+              <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor"><path d="M6.90588 4.53682C6.50592 4.2998 6 4.58808 6 5.05299V18.947C6 19.4119 6.50592 19.7002 6.90588 19.4632L18.629 12.5162C19.0211 12.2838 19.0211 11.7162 18.629 11.4838L6.90588 4.53682Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <div class="absolute inset-0 bg-linear-to-t from-slate-900/90 via-slate-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+            <span data-motion="badge" class="text-amber-600 text-xs font-medium tracking-wide uppercase mb-1 block" style="opacity: 1; transform: translateY(0px); filter: blur(0px);">Product / World</span>
+            <h6 class="text-white text-lg font-semibold">This is the title of the Short, how does it handle a new line</h6>            
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
