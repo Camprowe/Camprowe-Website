@@ -1829,6 +1829,31 @@ input, select, textarea {
 			font-weight: 900;
 		}
 
+		.icon.style2 {
+			-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			background-color: transparent;
+			border: solid 1px #c9c9c9;
+			border-radius: 4px;
+			width: 2em;
+			height: 2em;
+			display: inline-block;
+			text-align: center;
+			line-height: 1.5em;
+			color: inherit;
+		}			
+
+			.icon.style2:hover {
+				color: #ffa500;
+				border-color: #ffa500;
+			}
+
+			.icon.style2:active {
+				background-color: rgba(242, 132, 158, 0.1);
+			}
+
 /* List */
 
 	ol {
